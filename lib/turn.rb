@@ -4,9 +4,6 @@
 
 
 
-
-
-
 #------------------ TURN
 
 def turn(board)
@@ -19,7 +16,6 @@ def turn(board)
   if valid_move?(board, index) == true
     move(board, index)
     display_board(board)
-    # turn(board)
   else
     puts 'try again with a valid input'
     turn(board)
